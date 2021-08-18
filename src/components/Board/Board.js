@@ -29,7 +29,6 @@ class Board extends React.Component {
 
     const results = tasksArr.filter((el) => el.text.includes(term));
     this.setState({ chosenArr: results });
-
   };
 
   handleSearchTermState = (e) => {
@@ -108,15 +107,6 @@ class Board extends React.Component {
         console.log(inCompArr);
         this.setState({ chosenArr: inCompArr });
         break;
-      // case "search":
-
-      //   let term = this.state.searchTerm;
-      //   let tasksArr = this.state.tasks;
-
-      //   let results = tasksArr.filter((el) => el.text.includes(term));
-      //   // console.log(results);
-      //   this.setState({ chosenArr: results });
-      //   break;
 
       default:
         console.log("default is on");
