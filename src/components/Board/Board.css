@@ -1,6 +1,6 @@
 .board-container {
     background-color: rgb(242,242,242);
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .delete-container {
@@ -26,4 +26,14 @@
 .del-comp {
     color: white;
     float: left;
+}
+
+.search-row {
+    margin-right: 0!important;
+    text-align: center;
+    width: 600px;
+}
+
+.search{
+    margin-left: 20px;
 }
