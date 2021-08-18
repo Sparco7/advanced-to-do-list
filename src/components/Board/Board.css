@@ -1,0 +1,29 @@
+.board-container {
+    background-color: rgb(242,242,242);
+    max-width: 600px;
+}
+
+.delete-container {
+    max-width: 500px;
+}
+
+
+/* (E) DELETE ITEMS */
+#todo-del {
+    margin: 10px 0;
+}
+
+#todo-del input {
+    background: #CF585C;
+    border: 2px solid #CF585C;
+}
+
+.del-all-btn {
+    color: white;
+    float: left;
+}
+
+.del-comp {
+    color: white;
+    float: left;
+}

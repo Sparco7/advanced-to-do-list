@@ -1,0 +1,40 @@
+.para {
+  font-size: 25px;
+
+  text-align: left;
+  padding-left: 5px;
+}
+.task-card {
+  max-width: 500px;
+  width: 100%;
+
+  margin: 10px auto;
+  padding: 5px;
+  background-color: white;
+}
+
+.task-card-done {
+  max-width: 500px;
+  width: 100%;
+
+  margin: 10px auto;
+  padding: 5px;
+  background-color: white;
+  background-color: #dcffd7;
+}
+
+.delete-btn {
+  float: right;
+  color: white;
+  background-color: rgb(74, 165, 61);
+}
+
+.completed {
+  background-color: red;
+}
+
+.done {
+  font-size: 25px;
+
+  text-decoration: line-through;
+}

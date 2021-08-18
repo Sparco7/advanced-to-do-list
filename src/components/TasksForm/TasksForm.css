@@ -1,0 +1,26 @@
+/* (D) ADD ITEM  */
+
+.form-container {
+  max-width: 500px;
+  text-align: center;
+}
+
+#todo-add {
+  display: flex;
+}
+
+#todo-item {
+  width: 85%;
+}
+
+#todo-save {
+  width: 15%;
+  background: #5866cf;
+  border: 2px solid #5866cf;
+}
+
+button {
+  color: white;
+
+  font-weight: bold;
+}
